@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignDialog</class>
+ <widget class="QDialog" name="SignDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>361</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="buttonSign">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登陆</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>200</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BPicture">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-10</y>
+     <width>401</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/file:/C:/Users/ThinkPad/Pictures/C:/Users/ThinkPad/Pictures/51654332_p0.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>341</width>
+     <height>73</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelUser">
+      <property name="text">
+       <string>用户名:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineUser"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelPwd">
+      <property name="text">
+       <string>密码：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="linePwd"/>
+    </item>
+   </layout>
+   <zorder>labelUser</zorder>
+   <zorder>labelPwd</zorder>
+   <zorder>linePwd</zorder>
+   <zorder>lineUser</zorder>
+  </widget>
+  <zorder>BPicture</zorder>
+  <zorder>buttonSign</zorder>
+  <zorder>labelUser</zorder>
+  <zorder>labelPwd</zorder>
+  <zorder>lineUser</zorder>
+  <zorder>linePwd</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>labelUser</zorder>
+  <zorder>labelPwd</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
